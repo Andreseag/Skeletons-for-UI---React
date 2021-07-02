@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import dummyData from './data';
-
 import CardList from './components/CardList';
 import SkeletonCard from './components/SkeletonCard';
 
