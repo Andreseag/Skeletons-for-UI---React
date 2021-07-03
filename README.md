@@ -29,3 +29,21 @@ Para instalar este paquete es muy sencillo, solo necesitamos usar el siguiente c
 ```bash
 npm install react-loading-skeleton
 ```
+
+Esto nos agregará nuestra dependencia la cual podremos ver en nuestro archivo de configuración `package.json` de la siguiente forma.
+
+```js script
+
+ "dependencies": {
+   "react-loading-skeleton": "^2.2.0",
+ }
+
+```
+
+Para importar un Skeleton en algun componenete de React es muy sencillo, lo unico que debemos hacer es importar `Skeleton` de la libreria de `react-loading-skeleton`.
+
+```js script
+import Skeleton from 'react-loading-skeleton';
+
+<Skeleton />; // Simple, single-line loading skeleton
+```
